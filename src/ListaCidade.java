@@ -31,15 +31,6 @@ public class ListaCidade {
 
         return ini;
     }
-    public NoCidade ultimaPos(){
-        NoCidade ini = this.inicio;
-        NoCidade ant = ini;
-        while(ini!=null){
-            ant = ini;
-            ini = ini.getProx();
-        }
-        return ant;
-    }
 
 
 }

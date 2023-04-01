@@ -175,15 +175,6 @@ public class ListaEstado {
             return false;
 
     }
-    public NoEstado ultimaPos(){
-        NoEstado ini = this.inicio;
-        NoEstado ant = ini;
-        while(ini!=null){
-            ant = ini;
-            ini = ini.getProx();
-        }
-        return ant;
-    }
     public void exibirListaEstado(){
         NoEstado aux = this.inicio;
         ListaCidade cidade;
