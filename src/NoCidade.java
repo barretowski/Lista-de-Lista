@@ -6,6 +6,10 @@ public class NoCidade {
         this.nome="";
         this.prox = null;
     }
+    public NoCidade(String nome){
+        this.nome=nome;
+        this.prox = null;
+    }
 
     public void setProx(NoCidade prox) {
         this.prox = prox;

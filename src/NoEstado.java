@@ -1,14 +1,14 @@
 
 public class NoEstado {
     private NoEstado prox;
-    private Cidade listaCidade;
+    private ListaCidade cidade;
     private String nome;
 
     public NoEstado()
     {
         this.prox = null;
         this.nome = "";
-        this.listaCidade = null;
+        this.cidade = null;
     }
     public NoEstado(String nome)
     {
@@ -28,15 +28,15 @@ public class NoEstado {
         this.prox = prox;
     }
     public String getNome(){
-        return this.getNome();
+        return this.nome;
     }
     public void setNome(String nome){
-        this.setNome(nome);
+        this.nome = nome;
     }
-    public void setListaCidade(Cidade listaCidade) {
-        this.listaCidade = listaCidade;
+    public void setListaCidade(ListaCidade listaCidade) {
+        this.cidade = listaCidade;
     }
-    public Cidade getListaCidade() {
-        return listaCidade;
+    public ListaCidade getListaCidade() {
+        return cidade;
     }
 }
